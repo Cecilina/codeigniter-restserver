@@ -1,6 +1,7 @@
 <?php
+namespace Restserver\Libraries;
 
-class REST_Controller_Definitions {
+class REST_Controller_Definitions  {
 
     // Note: Only the widely used HTTP status codes are documented
 
