@@ -8,7 +8,7 @@ config file and one controller.
 ## Requirements
 
 1. PHP 5.4 or greater
-2. CodeIgniter 3.0+
+2. CodeIgniter 3.1.10+
 
 _Note: for 1.7.x support download v2.2 from Downloads tab_
 
@@ -23,7 +23,7 @@ Take a look at the "development" branch to see what's up.
 CodeIgniter Rest Server is available on [Packagist](https://packagist.org/packages/chriskacerguis/codeigniter-restserver) (using semantic versioning), and installation via composer is the recommended way to install Codeigniter Rest Server. Just add this line to your `composer.json` file:
 
 ```json
-"chriskacerguis/codeigniter-restserver": "^3.0"
+"crain/codeigniter-restserver": "^3.1.10"
 ```
 
 or run
