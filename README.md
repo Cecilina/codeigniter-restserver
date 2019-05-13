@@ -39,8 +39,11 @@ When your controller extends from `REST_Controller`, the method names will be ap
 This allows you to implement a RESTful interface easily:
 
 ```php
-class Books extends REST_Controller
+class Books extends CI_Controller
 {
+   use REST_Controller {
+    REST_Controller::__construct as private __resTraitConstruct;
+  }
   public function index_get()
   {
     // Display all books
@@ -146,6 +149,7 @@ If your application uses language files to support multiple locales, `REST_Contr
 public function __construct()
 {
   parent::__construct();
+  $this->__resTraitConstruct();
 
   if (is_array($this->response->lang))
   {
