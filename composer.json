@@ -1,8 +1,8 @@
 {
 	"description": "REST Server for the CodeIgniter framework",
-	"name": "crain/codeigniter-restserver",
+	"name": "chriskacerguis/codeigniter-restserver",
 	"type": "library",
-	"homepage": "https://github.com/Cecilina/codeigniter-restserver/",
+	"homepage": "https://github.com/chriskacerguis/codeigniter-restserver",
 	"authors": [
 		{
 			"name": "Chris Kacerguis",
@@ -11,7 +11,7 @@
 	],
 	"license": "MIT",
 	"support": {
-		"source": "https://github.com/Cecilina/codeigniter-restserver/"
+		"source": "https://github.com/chriskacerguis/codeigniter-restserver"
 	},
 	"require": {
 		"php": ">=7.1.0",

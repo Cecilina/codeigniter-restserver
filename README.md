@@ -23,7 +23,7 @@ Take a look at the "development" branch to see what's up.
 CodeIgniter Rest Server is available on [Packagist](https://packagist.org/packages/chriskacerguis/codeigniter-restserver) (using semantic versioning), and installation via composer is the recommended way to install Codeigniter Rest Server. Just add this line to your `composer.json` file:
 
 ```json
-"crain/codeigniter-restserver": "^3.1.10"
+"chriskacerguis/codeigniter-restserver": "^3.0"
 ```
 
 or run
